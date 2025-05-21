@@ -49,4 +49,5 @@ Abra o arquivo HTML no navegador para visualizar o resultado.
 Contribuições são bem-vindas! Se quiser sugerir melhorias, corrigir bugs ou adicionar novas atividades, fique à vontade para abrir uma issue ou pull request.
 
 - Autor
+
 @ohachii
