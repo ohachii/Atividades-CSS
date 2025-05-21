@@ -1,0 +1,12 @@
+/* CSS externo aplicado corretamente */
+body {
+    background-color: #f0f8ff;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+p {
+    color: #444;
+}

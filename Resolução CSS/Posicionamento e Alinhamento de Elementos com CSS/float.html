@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Float e Clear</title>
+    <style>
+        img {
+            float: left;
+            width: 100px;
+            margin: 10px;
+        }
+
+        p {
+            margin-left: 220px;
+            /* espaço para as imagens */
+        }
+
+        footer {
+            clear: both;
+            background-color: #eee;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <img src="img1.jpg" alt="Imagem 1">
+    <img src="img2.jpg" alt="Imagem 2">
+
+    <p>
+        Este parágrafo está ajustado ao lado direito das imagens flutuantes. Ele continua o conteúdo da página e deve
+        estar posicionado após as imagens.
+    </p>
+
+    <footer>
+        Rodapé posicionado abaixo de tudo (clear: both)
+    </footer>
+
+</body>
+
+</html>

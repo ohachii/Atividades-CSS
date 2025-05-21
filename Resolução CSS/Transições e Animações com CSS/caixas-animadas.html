@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Caixas com Efeitos</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 50px;
+        }
+
+        @keyframes flutuar {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .caixa {
+            width: 150px;
+            height: 150px;
+            background-color: #3498db;
+            border-radius: 8px;
+            transition: box-shadow 0.4s, background-color 0.4s;
+            animation: flutuar 3s ease-in-out infinite;
+        }
+
+        .caixa:hover {
+            background-color: #2980b9;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="caixa"></div>
+    <div class="caixa"></div>
+    <div class="caixa"></div>
+
+</body>
+
+</html>

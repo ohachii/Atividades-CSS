@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Grid com Span</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .item {
+            background-color: #673AB7;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 6px;
+        }
+
+        .duas-colunas {
+            grid-column: span 2 ;
+            background-color: #FF9800;
+        }
+
+        .duas-linhas {
+            grid-row: span 2;
+            background-color: #03A9F4;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item duas-colunas">2 (2 colunas)</div>
+        <div class="item">3</div>
+        <div class="item duas-linhas">4 (2 linhas)</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
+
+</body>
+
+</html>

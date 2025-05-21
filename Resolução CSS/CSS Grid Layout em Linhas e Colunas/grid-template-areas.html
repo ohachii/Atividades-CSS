@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Layout com Áreas</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-areas:
+                "header  header"
+                "menu    main"
+                "footer  footer";
+            grid-template-columns: 200px 1fr ;
+            grid-template-rows: auto 1fr auto;
+            gap: 10px;
+            height: 100vh;
+            padding: 10px;
+        }
+
+        .header {
+            grid-area: header;
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+        }
+
+        .menu {
+            grid-area: menu;
+            background-color: #2196F3;
+            color: white;
+            padding: 15px;
+        }
+
+        .main {
+            grid-area: main;
+            background-color: #f1f1f1;
+            padding: 15px;
+        }
+
+        .footer {
+            grid-area: footer;
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">Cabeçalho</div>
+        <div class="menu">Menu</div>
+        <div class="main">Conteúdo principal</div>
+        <div class="footer">Rodapé</div>
+    </div>
+
+</body>
+
+</html>
