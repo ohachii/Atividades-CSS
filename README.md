@@ -40,15 +40,13 @@ Abra o arquivo HTML no navegador para visualizar o resultado.
 
 /atividade5 - Estilos responsivos e media queries
 
-(Adapte conforme as pastas e atividades do seu repositório)
-
 ## Tecnologias utilizadas
--- HTML5
+- HTML5
 
--- CSS3
+- CSS3
 
 ## Contribuições
 Contribuições são bem-vindas! Se quiser sugerir melhorias, corrigir bugs ou adicionar novas atividades, fique à vontade para abrir uma issue ou pull request.
 
--- Autor
-ohachii
+- Autor
+- ohachii
